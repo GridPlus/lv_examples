@@ -1,4 +1,4 @@
-CSRCS += demo.c
+CSRCS += gp_ui.c
 CSRCS += img_bubble_pattern.c
 
 DEPPATH += --dep-path $(LVGL_DIR)/lv_examples/lv_apps/demo

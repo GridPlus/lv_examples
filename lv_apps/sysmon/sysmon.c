@@ -56,7 +56,7 @@ void sysmon_create(void)
     refr_task = lv_task_create(sysmon_task, REFR_TIME, LV_TASK_PRIO_LOW, NULL);
 
     win = lv_win_create(lv_scr_act(), NULL);
-    lv_win_add_btn(win, SYMBOL_CLOSE, win_close_action);
+    // lv_win_add_btn(win, SYMBOL_CLOSE, win_close_action);
 
     /*Make the window content responsive*/
     lv_win_set_layout(win, LV_LAYOUT_PRETTY);

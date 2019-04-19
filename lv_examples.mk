@@ -32,7 +32,8 @@ include $(LVGL_DIR)/lv_examples/lv_tests/lv_test_objx/lv_test_tileview/lv_test_t
 include $(LVGL_DIR)/lv_examples/lv_tests/lv_test_objx/lv_test_win/lv_test_win.mk
 
 include $(LVGL_DIR)/lv_examples/lv_apps/benchmark/benchmark.mk
-include $(LVGL_DIR)/lv_examples/lv_apps/demo/demo.mk
+# include $(LVGL_DIR)/lv_examples/lv_apps/demo/demo.mk
+include $(LVGL_DIR)/lv_examples/lv_apps/gp/gp.mk
 include $(LVGL_DIR)/lv_examples/lv_apps/sysmon/sysmon.mk
 include $(LVGL_DIR)/lv_examples/lv_apps/terminal/terminal.mk
 include $(LVGL_DIR)/lv_examples/lv_apps/tpcal/tpcal.mk
